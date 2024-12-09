@@ -31,7 +31,8 @@ Optimizer: Adam (adaptive learning rate optimization).
 Metric: Accuracy.
 The model is trained for 10 epochs, and the training process is validated on the validation dataset.
 
-Results
+Results:
+
 After training, the model is evaluated on the test dataset to measure its performance.
 Test Accuracy: The final test accuracy is printed in percentage format.
 Model Visualization
