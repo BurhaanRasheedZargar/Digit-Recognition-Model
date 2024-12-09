@@ -8,10 +8,12 @@ Input Layer:
 
 Accepts input images of size 28x28 pixels.
 Images are flattened into a single-dimensional array of 784 pixels.
+
 Hidden Layer:
 
 A fully connected (Dense) layer with 128 neurons.
 Activation function: ReLU (Rectified Linear Unit).
+
 Output Layer:
 
 A fully connected (Dense) layer with 10 neurons, representing the 10 digit classes (0–9).
@@ -37,6 +39,7 @@ The architecture of the model is saved as an image file (model_architecture.png)
 Saving the Model
 The trained model is saved to a file named model.h5, allowing for reuse and deployment.
 Running the Code
+
 To execute the code:
 
 Ensure Python, TensorFlow, and the required dependencies are installed.
